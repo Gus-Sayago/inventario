@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="guardar_articulo.php" method="post">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre">
+
+        <label for="marca">Marca:</label>
+        <input type="text" name="marca">
+
+        <label for="seccion">Sección:</label>
+        <select name="seccion">
+            <option value="A-1">A-1</option>
+            <option value="A-2">A-2</option>
+            <option value="A-3">A-3</option>
+            <option value="A-4">A-4</option>
+            <option value="A-5">A-5</option>
+        </select>
+
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" name="cantidad">
+
+        <input type="submit" value="Agregar Producto">
+
+    </form>
+</body>
+</html>
